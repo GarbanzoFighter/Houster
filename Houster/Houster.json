@@ -1,12 +1,11 @@
 {
-  "Author": "your name here",
-  "Name": "Sample Plugin",
-  "Punchline": "A short one-liner that shows up in /xlplugins.",
-  "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+  "Author": "GarbanzoFighter",
+  "Name": "Houster",
+  "Punchline": "Read housing items for other tool usage.",
+  "Description": "Read housing items, their locations, their configuration, and save for other tool usage.",
   "ApplicableVersion": "any",
   "Tags": [
-    "sample",
-    "plugin",
-    "goats"
+    "Housing",
+    "plugin"
   ]
 }

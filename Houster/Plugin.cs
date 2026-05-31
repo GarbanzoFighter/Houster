@@ -6,6 +6,8 @@ using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
 using Houster.Windows;
 
+
+
 namespace Houster;
 
 public sealed class Plugin : IDalamudPlugin
@@ -18,7 +20,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
-    private const string CommandName = "/pmycommand";
+    private const string CommandName = "/houster";
 
     public Configuration Configuration { get; init; }
 
